@@ -1,0 +1,57 @@
+
+.card{
+    width: 50rem;
+    height: 30rem;
+    display: flexbox;
+    background-color: cyan;
+    text-align: center;
+    margin: auto;
+    margin-top: 5cm;
+    border-radius: 20px;
+    border: 10px, solid, black;
+    padding: 10px;
+    opacity: 0.75;
+}
+
+
+
+.theme{
+    transition: 1s;
+    background-color: rgba(0, 110, 255, 0.7);
+    padding: 5px;
+    border: 4mm, solid, black;
+    text-align: center;
+    width: 30rem;
+    min-height: auto;
+    color: black;
+    text-decoration-line: overline;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 30px;
+    box-shadow: 0 8px 8px -2px rgba(0,0,0,0.4);
+    position: relative;
+    margin: 10mm auto;
+}
+.theme:hover{
+    transition: 1s;
+    transform: scale(1.05) ;
+    background-color: greenyellow;
+    opacity: 1;
+}
+
+
+
+body{
+    background: url("i.webp") center no-repeat;
+    background-size: 100% ;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    margin: 10px;
+}
+
+
+#footer{
+    margin-top: 20px;
+    background-color: darkgoldenrod;
+    
+}
